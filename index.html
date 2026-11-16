@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="이보나의 간호학과 학업 및 활동 포트폴리오">
+<title>LEE BONA | Portfolio</title>
+<style>
+:root{--ink:#24232a;--muted:#777580;--line:#e9e6eb;--pink:#f2dce7;--paper:#fff;--soft:#faf7f9}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"Noto Sans KR",Arial,sans-serif;line-height:1.6}
+header{position:sticky;top:0;z-index:20;background:#ffffffed;backdrop-filter:blur(12px);padding:18px 6vw;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px}
+.brand{font-size:14px;font-weight:800;letter-spacing:.15em;white-space:nowrap;color:var(--ink);text-decoration:none}
+nav{display:flex;gap:5px;align-items:center;flex-wrap:wrap}
+nav a{font-size:12px;color:var(--muted);text-decoration:none;padding:9px 11px;border-radius:24px}
+nav a:hover,nav a:focus-visible,nav a.active{background:var(--pink);color:#382632;outline:none}
+main{max-width:1120px;margin:auto;padding:58px 6vw 90px}
+section{scroll-margin-top:95px;margin-bottom:76px}
+.eyebrow{font-size:10px;letter-spacing:.2em;color:#9a7185;text-transform:uppercase;font-weight:700}
+h1{font-size:clamp(38px,6vw,64px);font-weight:550;letter-spacing:-.055em;line-height:1.12;margin:14px 0}
+h2{font-size:27px;letter-spacing:-.035em;margin:0 0 20px}
+h3{font-size:17px;margin:0 0 8px}
+.lead{color:var(--muted);font-size:15px;line-height:1.9;max-width:700px}
+.hero{padding:42px 0 48px;border-bottom:1px solid var(--line);margin-bottom:58px}
+.hero-kicker{font-size:12px;letter-spacing:.14em;color:var(--muted)}
+.hero-grid{display:grid;grid-template-columns:1fr 270px;gap:40px;align-items:end}
+.hero-card{background:var(--soft);border:1px solid var(--line);border-radius:18px;padding:23px}
+.hero-card strong{display:block;font-size:14px;margin-bottom:8px}
+.hero-card p{font-size:12px;color:var(--muted);margin:0;line-height:1.8}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.pill{font-size:11px;border:1px solid var(--line);padding:7px 12px;border-radius:30px;color:#625d67}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.panel{border:1px solid var(--line);border-radius:16px;padding:22px;background:#fff}
+.panel p{font-size:13px;color:var(--muted);line-height:1.85;margin:7px 0 0}
+.info-table{width:100%;border-collapse:collapse;font-size:13px}
+.info-table th,.info-table td{padding:14px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.info-table th{width:125px;color:var(--muted);font-weight:500}
+.subnav{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 26px;padding-bottom:13px;border-bottom:1px solid var(--line)}
+.subnav a{font-size:12px;text-decoration:none;color:var(--muted);padding:8px 13px;border-radius:24px}
+.subnav a:hover,.subnav a:focus-visible,.subnav a.active{background:var(--pink);color:#382632;font-weight:700;outline:none}
+.activity-block{padding:22px 0;border-bottom:1px solid var(--line)}
+.activity-block p{font-size:13px;color:var(--muted);margin:6px 0 0}
+.certificate-card{display:grid;grid-template-columns:1.1fr .9fr;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.certificate-image{background:#f3f2f5;padding:24px;display:flex;align-items:center;justify-content:center}
+.certificate-image img{width:100%;height:auto;display:block;box-shadow:0 12px 32px #24232a18}
+.certificate-info{padding:32px;display:flex;flex-direction:column;justify-content:center}
+.certificate-info h3{font-family:Georgia,serif;font-size:25px;line-height:1.35;margin:12px 0}
+.certificate-info p{font-size:13px;color:var(--muted);line-height:1.85}
+.meta{display:grid;grid-template-columns:95px 1fr;gap:10px;font-size:12px;border-top:1px solid var(--line);padding-top:17px;margin-top:12px}
+.meta span:nth-child(odd){color:var(--muted)}
+.link-button{display:inline-block;width:max-content;background:#25232a;color:#fff;text-decoration:none;padding:12px 18px;border-radius:30px;font-size:12px;margin-top:24px}
+.intro{font-size:14px;line-height:2;color:#4e4b55;max-width:850px}
+.intro p{margin:0 0 16px}
+footer{border-top:1px solid var(--line);padding:25px 6vw;color:#96939d;font-size:11px;text-align:center}
+@media(max-width:760px){header{align-items:flex-start;flex-direction:column}header nav{gap:2px}main{padding-top:38px}.hero-grid,.grid2,.certificate-card{grid-template-columns:1fr}.hero-card{max-width:none}.certificate-info{padding:25px}.info-table th{width:100px}}
+</style>
+</head>
+<body>
+<header>
+<a class="brand" href="#home">LEE BONA <span style="font-weight:400;color:#999">/ PORTFOLIO</span></a>
+<nav aria-label="Main navigation">
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#research-activities">Research and Activities</a>
+<a href="#certifications">Qualifications</a>
+</nav>
+</header>
+<main>
+<section class="hero" id="home">
+<div class="hero-kicker">NURSING STUDENT · PORTFOLIO</div>
+<div class="hero-grid">
+<div>
+<div class="eyebrow">Hello, I'm</div>
+<h1>이보나<br><span style="color:#b9879e">LEE BONA</span></h1>
+<p class="lead">세심한 관찰과 공감하는 태도로 사람을 이해하고, 신뢰를 주는 간호사로 성장하고자 합니다.</p>
+<div class="pills"><span class="pill">관찰력</span><span class="pill">공감과 소통</span><span class="pill">책임감</span><span class="pill">배우는 자세</span></div>
+</div>
+<aside class="hero-card">
+<strong>Profile</strong>
+<p>한림성심대학교 간호학과 재학<br>신구대학교 보육복지과 졸업<br>보육교사 · 사회복지사 자격 보유</p>
+</aside>
+</div>
+</section>
+<section id="about">
+<div class="eyebrow">01 / About</div>
+<h2>Profile</h2>
+<table class="info-table">
+<tr><th>Name</th><td>이보나 / LEE bona</td></tr>
+<tr><th>Email</th><td><a href="mailto:bonai0530@naver.com" style="color:inherit">bonai0530@naver.com</a></td></tr>
+<tr><th>Major</th><td>한림성심대학교 간호학과 재학</td></tr>
+<tr><th>Strengths</th><td>관찰력 · 세심한 돌봄 · 공감 능력 · 의사소통 능력 · 책임감</td></tr>
+</table>
+</section>
+<section id="education">
+<div class="eyebrow">02 / Education</div>
+<h2>Education</h2>
+<div class="panel">
+<table class="info-table">
+<tr><th>2026.03 – 현재</th><td><strong>한림성심대학교</strong><br>간호학과 재학</td></tr>
+<tr><th>2022.03 – 2024.02</th><td><strong>신구대학교</strong><br>보육복지과 졸업 · 학점 3.8</td></tr>
+</table>
+</div>
+</section>
+<section id="research-activities">
+<div class="eyebrow">03 / Research and Activities</div>
+<h2>Research and Activities</h2>
+<p class="lead">배움과 탐구, 다양한 활동 및 교육 이력을 정리했습니다.</p>
+<nav class="subnav" aria-label="Research and Activities sub navigation">
+<a href="#research">Research</a><a href="#activities">Activities</a>
+</nav>
+<div id="research" class="activity-block">
+<h3>Research</h3>
+<p>간호학 전공 과정에서 학습한 내용과 관심 주제, 관련 프로젝트를 정리하는 공간입니다.</p>
+</div>
+<div id="activities" class="activity-block">
+<h3>Activities</h3>
+<p>보육 및 사회복지 분야의 현장 실습 경험을 정리했습니다.</p>
+<div class="grid2" style="margin-top:18px">
+<article class="panel">
+<div class="eyebrow">Childcare Practicum</div>
+<h3 style="margin-top:10px">어린이집 실습</h3>
+<p>어린이집 현장에서의 보육 실습 경험</p>
+</article>
+<article class="panel">
+<div class="eyebrow">Child Center Practicum</div>
+<h3 style="margin-top:10px">아동센터 실습</h3>
+<p>아동센터 현장에서의 실습 경험</p>
+</article>
+</div>
+</div>
+</section>
+<section id="certifications">
+<div class="eyebrow">04 / Qualifications &amp; Certifications</div>
+<h2>Qualifications &amp; Certifications</h2>
+<div class="panel">
+<table class="info-table">
+<tr><th>2024.02</th><td><strong>보육교사 2급 자격증</strong><br>한국보육진흥원</td></tr>
+<tr><th>2024.02</th><td><strong>사회복지사 2급 자격증</strong><br>한국사회복지사협회</td></tr>
+<tr><th>2026.09.13</th><td><strong><a href="https://www.coursera.org/account/accomplishments/verify/SHE6UFBTW8DK" target="_blank" rel="noopener noreferrer" style="color:inherit;text-underline-offset:4px" aria-label="Global MOOC on the Ethics of AI Coursera 수료증 보기 (새 탭)">Global MOOC on the Ethics of AI</a></strong><br>UNESCO · LG AI Research / Coursera</td></tr>
+</table>
+</div>
+</section>
+<section id="introduction">
+<div class="eyebrow">05 / Self Introduction</div>
+<h2>Self Introduction</h2>
+<div class="intro">
+<p>저는 간호학을 전공하며 환자의 신체적 건강뿐만 아니라 정서적 안정과 사회적 환경까지 고려하는 간호의 중요성을 배웠습니다. 또한 보육교사 자격증과 사회복지사 자격증을 취득하며 다양한 연령과 환경에 놓인 사람들을 이해하고 돌보는 역량을 함께 키웠습니다.</p>
+<p>보육교사로서 필요한 관찰력과 세심한 돌봄의 자세, 사회복지사로서 배운 공감과 의사소통 능력은 간호사 업무에서도 큰 강점이 될 수 있다고 생각합니다. 특히 환자의 작은 변화도 놓치지 않고 살피며, 환자와 보호자의 이야기에 귀 기울이고 신뢰를 형성하는 간호사가 되고자 합니다.</p>
+<p>저는 맡은 업무를 책임감 있게 수행하고, 동료들과 원활하게 소통하며 협력하는 사람입니다. 새로운 환경에서도 배우는 자세로 빠르게 적응하고, 기본에 충실하면서도 환자에게 필요한 부분을 먼저 살필 수 있는 간호사가 되겠습니다.</p>
+<p>앞으로도 꾸준히 전문성을 쌓아 환자에게는 따뜻한 신뢰를, 동료에게는 믿음을 주는 간호사로 성장하겠습니다.</p>
+</div>
+</section>
+</main>
+<footer>LEE BONA · PORTFOLIO</footer>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+link.addEventListener('click',()=>{
+const target=document.querySelector(link.getAttribute('href'));
+if(target){document.querySelectorAll('header nav a,.subnav a').forEach(a=>a.classList.remove('active'));link.classList.add('active');}
+});
+});
+</script>
+</body>
+</html>
